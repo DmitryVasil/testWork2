@@ -1,0 +1,168 @@
+@media (max-width: 940px) {
+  .container {
+    padding: 50px 50px;
+  }
+
+  .slick-next {
+    right: 3%;
+  }
+
+  .exposition__block-top {
+    flex-direction: column;
+  }
+
+  .exposition__block-top-left {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .exposition__block-top-right {
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 640px) {
+
+  .container {
+    padding: 50px 20px;
+  }
+
+  .header__block-box {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0px; */
+  }
+
+  .header__block-img {
+    width: 20%;
+  }
+
+  .header__block-descr {
+    width: 90%;
+  }
+
+  .compound__item {}
+
+  .compound__item-descr {
+    display: inline-block;
+  }
+
+  .compound__block {
+    background-size: 50%;
+  }
+
+  .compound__item-box-img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .reviews__slide {
+    flex-direction: column;
+  }
+
+  .reviews__user {
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+  
+  .reviews__text {
+    width: 90%;
+  }
+
+  .exposition__block-top-left {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+  }
+
+  .exposition__block-top-left>img {
+    width: 70%;
+  }
+
+  .exposition__block-top-right-descr {
+    font-size: 11px;
+  }
+
+  
+
+  .exposition__block-down-list {
+    flex-direction: column;
+  }
+
+  .exposition__block-down-element {
+    text-align: center;
+    font-size: 15px;
+  }
+  
+  .exposition__block-down-element:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  .slick-prev::before,
+  .slick-next::before,
+  .slick-arrow {
+    display: none;
+  }
+
+  /* .slick-prev {
+    left: 1%;
+  } */
+
+  /* .slick-next {
+    right: 10%;
+  } */
+
+  .registration__block {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .registration__left-block,
+  .registration__right-block {
+    width: 100%;
+  }
+
+  .registration__left-block {
+    margin-bottom: 30px;
+  }
+
+  .registration__left-block-img {
+    display: flex;
+    justify-content: center;
+  }
+
+  .registration__left-block-img img {
+    width: 50%;
+  }
+
+  .label {
+    padding-top: 50px;
+  }
+
+  .label::after {
+    top: 55px;
+  }
+
+  .form__btn {
+    margin-top: 50px;
+  }
+
+  .form__input {
+    height: 50px;
+    font-size: 15px;
+  }
+
+  .form__btn {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 420px) {
+
+  .container {
+    padding: 50px 20px;
+  }
+
+}
