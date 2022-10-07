@@ -131,6 +131,13 @@ body {
   background-color: rgb(229, 220, 238);
 }
 
+.contain {
+  max-width: 1700px;
+  margin: 0 auto;
+  padding: 50px 150px;
+  border-radius: 50px;
+}
+
 .header__container {
   position: relative;
   display: flex;
@@ -141,6 +148,7 @@ body {
 
 .header {
   margin-bottom: 50px;
+  position: relative;
 }
 
 .header__media {
